@@ -7,19 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		272A8FDB294C2D68005CA5F8 /* TeacherListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272A8FDA294C2D68005CA5F8 /* TeacherListView.swift */; };
+		274BB092294413170089219D /* ScheduleItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274BB091294413170089219D /* ScheduleItemDetailView.swift */; };
+		27C742512946A28E0052F15B /* FileManager-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C742502946A28E0052F15B /* FileManager-Decodable.swift */; };
+		27CD5C7E294B096A0062FD89 /* EditSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CD5C7D294B096A0062FD89 /* EditSubject.swift */; };
+		27CD5C80294B24FD0062FD89 /* AddSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CD5C7F294B24FD0062FD89 /* AddSubject.swift */; };
 		27F9CAE72941B67400032397 /* NIHS_SchedulerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9CAE62941B67400032397 /* NIHS_SchedulerApp.swift */; };
 		27F9CAE92941B67400032397 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9CAE82941B67400032397 /* ContentView.swift */; };
 		27F9CAEB2941B67400032397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F9CAEA2941B67400032397 /* Assets.xcassets */; };
 		27F9CAEE2941B67400032397 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F9CAED2941B67400032397 /* Preview Assets.xcassets */; };
+		27F9CAF62941B6C300032397 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9CAF52941B6C300032397 /* ModelData.swift */; };
+		27F9CAF82941B6E500032397 /* DropDelegateImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9CAF72941B6E500032397 /* DropDelegateImpl.swift */; };
+		27F9CAFB2941B70E00032397 /* TeacherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9CAFA2941B70E00032397 /* TeacherView.swift */; };
+		27F9CAFD2941B72500032397 /* AddTeacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9CAFC2941B72500032397 /* AddTeacher.swift */; };
+		27F9CAFF2941B74300032397 /* EditTeacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9CAFE2941B74300032397 /* EditTeacher.swift */; };
+		27F9CB012941B75B00032397 /* SubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9CB002941B75B00032397 /* SubjectView.swift */; };
+		27F9CB032941B79C00032397 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9CB022941B79C00032397 /* CalendarView.swift */; };
+		27F9CB062941B7BD00032397 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9CB052941B7BD00032397 /* CalendarViewModel.swift */; };
+		27F9CB082941B7D100032397 /* ScheduleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9CB072941B7D100032397 /* ScheduleItem.swift */; };
+		27F9CB0A2941B7E700032397 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9CB092941B7E700032397 /* Teacher.swift */; };
+		27F9CB0C2941B7FD00032397 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9CB0B2941B7FD00032397 /* Student.swift */; };
+		27F9CB0E2941B81800032397 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9CB0D2941B81800032397 /* Subject.swift */; };
+		27F9CB162941B87100032397 /* DataEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9CB152941B87100032397 /* DataEnums.swift */; };
+		27F9CB182941BF3C00032397 /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9CB172941BF3C00032397 /* Logo.swift */; };
+		27F9CB342941CEB700032397 /* AddScheduleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9CB332941CEB600032397 /* AddScheduleItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		272A8FDA294C2D68005CA5F8 /* TeacherListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherListView.swift; sourceTree = "<group>"; };
+		274BB091294413170089219D /* ScheduleItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleItemDetailView.swift; sourceTree = "<group>"; };
+		27C742502946A28E0052F15B /* FileManager-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-Decodable.swift"; sourceTree = "<group>"; };
+		27CD5C7D294B096A0062FD89 /* EditSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSubject.swift; sourceTree = "<group>"; };
+		27CD5C7F294B24FD0062FD89 /* AddSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSubject.swift; sourceTree = "<group>"; };
 		27F9CAE32941B67400032397 /* NIHS Scheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NIHS Scheduler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F9CAE62941B67400032397 /* NIHS_SchedulerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIHS_SchedulerApp.swift; sourceTree = "<group>"; };
 		27F9CAE82941B67400032397 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		27F9CAEA2941B67400032397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27F9CAED2941B67400032397 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		27F9CAEF2941B67400032397 /* NIHS_Scheduler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NIHS_Scheduler.entitlements; sourceTree = "<group>"; };
+		27F9CAF52941B6C300032397 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		27F9CAF72941B6E500032397 /* DropDelegateImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDelegateImpl.swift; sourceTree = "<group>"; };
+		27F9CAFA2941B70E00032397 /* TeacherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherView.swift; sourceTree = "<group>"; };
+		27F9CAFC2941B72500032397 /* AddTeacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTeacher.swift; sourceTree = "<group>"; };
+		27F9CAFE2941B74300032397 /* EditTeacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTeacher.swift; sourceTree = "<group>"; };
+		27F9CB002941B75B00032397 /* SubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectView.swift; sourceTree = "<group>"; };
+		27F9CB022941B79C00032397 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		27F9CB052941B7BD00032397 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		27F9CB072941B7D100032397 /* ScheduleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleItem.swift; sourceTree = "<group>"; };
+		27F9CB092941B7E700032397 /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		27F9CB0B2941B7FD00032397 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		27F9CB0D2941B81800032397 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		27F9CB152941B87100032397 /* DataEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataEnums.swift; sourceTree = "<group>"; };
+		27F9CB172941BF3C00032397 /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
+		27F9CB332941CEB600032397 /* AddScheduleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScheduleItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,10 @@
 			children = (
 				27F9CAE62941B67400032397 /* NIHS_SchedulerApp.swift */,
 				27F9CAE82941B67400032397 /* ContentView.swift */,
+				27F9CAF72941B6E500032397 /* DropDelegateImpl.swift */,
+				27C742502946A28E0052F15B /* FileManager-Decodable.swift */,
+				27F9CAF92941B6FC00032397 /* Views */,
+				27F9CB042941B7A800032397 /* Data */,
 				27F9CAEA2941B67400032397 /* Assets.xcassets */,
 				27F9CAEF2941B67400032397 /* NIHS_Scheduler.entitlements */,
 				27F9CAEC2941B67400032397 /* Preview Content */,
@@ -67,6 +111,38 @@
 				27F9CAED2941B67400032397 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		27F9CAF92941B6FC00032397 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27F9CAFA2941B70E00032397 /* TeacherView.swift */,
+				272A8FDA294C2D68005CA5F8 /* TeacherListView.swift */,
+				27F9CB002941B75B00032397 /* SubjectView.swift */,
+				27F9CAFC2941B72500032397 /* AddTeacher.swift */,
+				27CD5C7F294B24FD0062FD89 /* AddSubject.swift */,
+				27F9CB332941CEB600032397 /* AddScheduleItem.swift */,
+				27F9CAFE2941B74300032397 /* EditTeacher.swift */,
+				27CD5C7D294B096A0062FD89 /* EditSubject.swift */,
+				27F9CB022941B79C00032397 /* CalendarView.swift */,
+				27F9CB172941BF3C00032397 /* Logo.swift */,
+				274BB091294413170089219D /* ScheduleItemDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		27F9CB042941B7A800032397 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				27F9CAF52941B6C300032397 /* ModelData.swift */,
+				27F9CB052941B7BD00032397 /* CalendarViewModel.swift */,
+				27F9CB072941B7D100032397 /* ScheduleItem.swift */,
+				27F9CB092941B7E700032397 /* Teacher.swift */,
+				27F9CB0B2941B7FD00032397 /* Student.swift */,
+				27F9CB0D2941B81800032397 /* Subject.swift */,
+				27F9CB152941B87100032397 /* DataEnums.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,7 +173,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
-				LastUpgradeCheck = 1410;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					27F9CAE22941B67400032397 = {
 						CreatedOnToolsVersion = 14.1;
@@ -139,8 +215,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27C742512946A28E0052F15B /* FileManager-Decodable.swift in Sources */,
+				27F9CB0A2941B7E700032397 /* Teacher.swift in Sources */,
+				27CD5C7E294B096A0062FD89 /* EditSubject.swift in Sources */,
+				272A8FDB294C2D68005CA5F8 /* TeacherListView.swift in Sources */,
+				27F9CB182941BF3C00032397 /* Logo.swift in Sources */,
+				27F9CAFD2941B72500032397 /* AddTeacher.swift in Sources */,
+				27F9CB0E2941B81800032397 /* Subject.swift in Sources */,
 				27F9CAE92941B67400032397 /* ContentView.swift in Sources */,
+				27F9CAFF2941B74300032397 /* EditTeacher.swift in Sources */,
+				27F9CAFB2941B70E00032397 /* TeacherView.swift in Sources */,
+				274BB092294413170089219D /* ScheduleItemDetailView.swift in Sources */,
+				27F9CB342941CEB700032397 /* AddScheduleItem.swift in Sources */,
+				27CD5C80294B24FD0062FD89 /* AddSubject.swift in Sources */,
+				27F9CB062941B7BD00032397 /* CalendarViewModel.swift in Sources */,
 				27F9CAE72941B67400032397 /* NIHS_SchedulerApp.swift in Sources */,
+				27F9CB0C2941B7FD00032397 /* Student.swift in Sources */,
+				27F9CB032941B79C00032397 /* CalendarView.swift in Sources */,
+				27F9CB162941B87100032397 /* DataEnums.swift in Sources */,
+				27F9CAF62941B6C300032397 /* ModelData.swift in Sources */,
+				27F9CB082941B7D100032397 /* ScheduleItem.swift in Sources */,
+				27F9CAF82941B6E500032397 /* DropDelegateImpl.swift in Sources */,
+				27F9CB012941B75B00032397 /* SubjectView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +276,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -201,6 +298,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "NIHS Scheduler";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -240,6 +338,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -254,6 +353,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "NIHS Scheduler";
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -266,14 +366,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "NIHS Scheduler/NIHS_Scheduler.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"NIHS Scheduler/Preview Content\"";
 				DEVELOPMENT_TEAM = 7732MA8V6Y;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "NIHS Scheduler";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,14 +398,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "NIHS Scheduler/NIHS_Scheduler.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"NIHS Scheduler/Preview Content\"";
 				DEVELOPMENT_TEAM = 7732MA8V6Y;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "NIHS Scheduler";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
